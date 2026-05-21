@@ -1,9 +1,9 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-score_rate = (global.speed / 3) 
 
-global.score += score_rate
-
+function increase_speed(_spd, _multi){
+	_spd *= _multi;
+}
 
 
 

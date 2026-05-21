@@ -1,6 +1,6 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-score_rate = 1
+score_rate = (global.speed / 3) 
 draw_set_font(global.font);
 
 function zero_padding(_val, _total) {

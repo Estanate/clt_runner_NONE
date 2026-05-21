@@ -1,8 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-score_rate = (global.speed / 3) 
-
-global.score += score_rate
+draw_sprite(sprite_index, 0, x, y);
+draw_sprite(sprite_index, 0, x, y - sprite_height);
 
 
 

@@ -1,11 +1,10 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-score_rate = (global.speed / 3) 
+y +=global.speed;
 
-global.score += score_rate
-
-
-
+if (y >= sprite_height) {
+	y = 0
+}
 
 
 
